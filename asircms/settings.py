@@ -155,6 +155,11 @@ INSTALLED_APPS = (
 	'djangocms_teaser',
 	'djangocms_video',
 	'reversion',
+	'easy_thumbnails',
+	'filer',
+	'parler',
+	'sortedm2m',
+	'taggit',
 
 	'aldryn_apphooks_config',
 	'aldryn_boilerplates',
@@ -164,11 +169,6 @@ INSTALLED_APPS = (
 	'aldryn_people',
 	'aldryn_reversion',
 	'aldryn_translation_tools',
-	'easy_thumbnails',
-	'filer',
-	'parler',
-	'sortedm2m',
-	'taggit',
 
 	'asircms',
 )
@@ -219,7 +219,7 @@ CMS_TEMPLATES = (
 	('feature.html', 'Page with Feature')
 )
 
-ALDRYN_BOILERPLATE_NAME='legacy'
+ALDRYN_BOILERPLATE_NAME='bootstrap3'
 
 CMS_PERMISSION = True
 
